@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd $HOME/src/veins;
+
+source setenv
+./configure
+make -j $(nproc)
