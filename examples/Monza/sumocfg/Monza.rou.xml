@@ -1,0 +1,27 @@
+<routes>
+   <vType id="vtype0" maxSpeed="95" speedFactor="normc(0.83, 0.1, 0.75, 0.92)" accel="18" decel="40" lcAccelLat="50" length="2.5" minGap="0.1"  color="1,1,0" lcStrategic="100.0" lcOvertakeRight="1.0" lcSpeedGain="1000" lcKeepRight="100" lcKeepRightAcceptanceTime="0.2" lcAssertive = "100000"/>
+   
+   <route id="route0" edges="start E1 E2 E3 E4 E5 E6 E7 E8 E16 E17 E18 E19 E20 E21 E22 E23 E24 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38 E39 E77 E78 E79 E80 E82 E83 E84 E87 E88 E89 E90 E91 E92 E93 E94 E95 E96 E97 E98 E99 E100 E101 E102 E103 E104 E105 E106 E107 E108 E109 finish"/>
+   
+   <flow id="flow0" type="vtype0" route="route0"  begin="0" departLane="0" departPos="0" number="1" />
+   <flow id="flow1" type="vtype0" route="route0"  begin="0" departLane="1" departPos="0" number="1"/>
+   <flow id="flow2" type="vtype0" route="route0"  begin="0" departLane="1" departPos="12" number="1"/>
+   <flow id="flow3" type="vtype0" route="route0"  begin="0" departLane="2" departPos="12" number="1"/>
+   <flow id="flow4" type="vtype0" route="route0"  begin="0" departLane="0" departPos="24" number="1"/>
+   <flow id="flow5" type="vtype0" route="route0"  begin="0" departLane="1"  departPos="24" number="1"/>
+   <flow id="flow6" type="vtype0" route="route0"  begin="0" departLane="1"  departPos="36" number="1"/>
+   <flow id="flow7" type="vtype0" route="route0"  begin="0" departLane="2"  departPos="36" number="1"/>
+   <flow id="flow8" type="vtype0" route="route0"  begin="0" departLane="0"  departPos="48" number="1"/>
+   <flow id="flow9" type="vtype0" route="route0"  begin="0" departLane="1"  departPos="48" number="1"/>
+   <flow id="flow10" type="vtype0" route="route0"  begin="0" departLane="1"  departPos="60" number="1"/>
+   <flow id="flow11" type="vtype0" route="route0"  begin="0" departLane="2"  departPos="60" number="1"/>
+   <flow id="flow12" type="vtype0" route="route0"  begin="0" departLane="0"  departPos="72" number="1"/>
+   <flow id="flow13" type="vtype0" route="route0"  begin="0" departLane="1"  departPos="72" number="1"/>
+   <flow id="flow14" type="vtype0" route="route0"  begin="0" departLane="1"  departPos="84" number="1"/>
+   <flow id="flow15" type="vtype0" route="route0"  begin="0" departLane="2"  departPos="84" number="1"/>
+   <flow id="flow16" type="vtype0" route="route0"  begin="0" departLane="0"  departPos="96" number="1"/>
+   <flow id="flow17" type="vtype0" route="route0"  begin="0" departLane="1"  departPos="96" number="1"/>
+   <flow id="flow18" type="vtype0" route="route0"  begin="0" departLane="1"  departPos="108" number="1"/>
+   <flow id="flow19" type="vtype0" route="route0"  begin="0" departLane="2"  departPos="108" number="1"/>
+
+</routes>
